@@ -11,7 +11,8 @@ import org.joda.time.DateTime
 
 case class Request-request (
   business: Option[String],
-  search: Option[String]
+  search: Option[String],
+  pricesearch: Option[String]
 ) extends ApiModel
 
 
