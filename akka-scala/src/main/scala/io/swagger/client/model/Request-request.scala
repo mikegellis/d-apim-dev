@@ -13,7 +13,8 @@ case class Request-request (
   business: Option[String],
   search: Option[String],
   pricesearch: Option[String],
-  wildcardsearch: Option[String]
+  wildcardsearch: Option[String],
+  yamlSearch: Option[String]
 ) extends ApiModel
 
 
